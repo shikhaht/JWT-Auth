@@ -19,8 +19,12 @@
     background-color: white;
     padding: 1rem 3rem;
     padding-bottom: 2rem;
-    border-radius: 0.5rem;
-    border-top: rgb(80, 98, 255) 0.5rem solid;
+    border-radius: 2.5rem;
+    border-top: rgb(255, 80, 141) 0.5rem solid;
+    border-bottom: rgb(255, 80, 141) 0.5rem solid;
+    border-left: rgb(255, 80, 141) 0.5rem solid;
+    border-right: rgb(255, 80, 141) 0.5rem solid;
+
   }
   
   h2 {
@@ -47,7 +51,7 @@
   }
   
   button {
-    background-color: rgb(80, 98, 255);
+    background-color: rgb(255, 80, 141);
     color: white;
     border: none;
     padding: 0.5rem;
@@ -59,13 +63,13 @@
   
   span a {
     text-decoration: none;
-    color: rgb(80, 98, 255);
+    color: rgb(255, 80, 141);
   }
   
   .private {
     height: 100vh;
     width: 100vw;
-    background-color: rgb(80, 98, 255);
+    background-color: rgb(235, 255, 80);
     color: white;
     display: flex;
     justify-content: center;
